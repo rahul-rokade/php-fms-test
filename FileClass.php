@@ -1,11 +1,14 @@
 <?php
+$dirPath = getcwd();
+include_once ($dirPath.'/FileInterface.php');
+
 public class FileClass implements FileInterface {
 
   /**
    * @return string
    */
-  public function getName() {
-
+  public function getName(){
+echo "hello";
   }
 
   /**

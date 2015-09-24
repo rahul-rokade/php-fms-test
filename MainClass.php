@@ -1,9 +1,9 @@
 <?php
-public class MainClass {
+$dirPath = getcwd();
+include_once ($dirPath.'/FileClass.php');
 
-	public function getName(){
-	
-	}	
-}
+$fileObj = new FileClass();
+echo $fileObj->getName();
+
 ?>
 
